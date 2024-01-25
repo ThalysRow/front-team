@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+
 :root {
-    
+    --font-primaria: 'Raleway', sans-serif;
+    --font-secundaria: 'Calistoga', serif;
+    --cor-marrom-forte: #663300;
+    --cor-de-fundo: #fcf1d0;
 }
