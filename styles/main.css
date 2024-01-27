@@ -4,8 +4,10 @@
 
 .foto-banner {
     margin-top: 104px;
-    width: 100vw;
+    width: 100%;
 }
+
+
 
 .apresentacao {
     margin-top: 64px;
@@ -107,7 +109,6 @@
     font-weight: 500;
     color: var(--cor-branca);
     background-color: var(--cor-amarela-principal);
-    padding: 16px;
   }
 
   .titulo-cardapio{
@@ -124,7 +125,6 @@
     font-weight: 500;
     color: var(--cor-branca);
     background-color: var(--cor-amarela-principal);
-    padding: 16px;
   }
 
   .descricao-diferencial {
@@ -184,6 +184,7 @@
 
   .melhores-produtos {
     margin-top: 104px;
+    padding: 0 121.5px;
   }
   
   .titulo-produtos {
@@ -204,7 +205,6 @@
     display: flex;
     justify-content: center;
     column-gap: 24px;
-    padding: 0px 121.5px; 
     align-items: flex-start;
   }
 
