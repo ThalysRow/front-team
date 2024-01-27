@@ -47,6 +47,7 @@
     color: var(--cor-cinza);
     font-weight: 500;
     line-height: 40px;
+    text-align: center;
 }
 
 .campo-apresentacao {
@@ -101,6 +102,23 @@
   }
 
   .titulo-diferencial h2 {
+    font-family: var(--font-secundaria);
+    font-size: 48px;
+    font-weight: 500;
+    color: var(--cor-branca);
+    background-color: var(--cor-amarela-principal);
+    padding: 16px;
+  }
+
+  .titulo-cardapio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 32px;
+    margin-top: 104px;
+  }
+
+  .titulo-cardapio h2 {
     font-family: var(--font-secundaria);
     font-size: 48px;
     font-weight: 500;
@@ -167,7 +185,7 @@
   .melhores-produtos {
     margin-top: 104px;
   }
-
+  
   .titulo-produtos {
     display: flex;
     align-items: center;
@@ -184,17 +202,18 @@
   .container-produtos {
     margin-top: 32px;
     display: flex;
-    align-items: center;
     justify-content: center;
     column-gap: 24px;
-    padding: 0px 121.5px;
+    padding: 0px 121.5px; 
+    align-items: flex-start;
   }
 
   .lista {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    gap: 24px;
+    flex: 1 0 0;
   }
 
   .lista img {
@@ -217,19 +236,18 @@
   }
 
   .lista p {
-    margin-top: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: var(--font-primaria);
+    color: var(--Cinza, #444);
+    text-align: center;
+    
+    /* P */
+    font-family: Raleway;
     font-size: 20px;
+    font-style: normal;
     font-weight: 500;
-    color: var(--cor-cinza);
-    line-height: 40px;
+    line-height: 40px; /* 200% */
   }
 
   .lista:hover {
-    border: 1px solid var(--cor-amarela-principal);
     border-radius: 8px;
     transform: scale(1.05);
     transition: transform 0.3s ease;
