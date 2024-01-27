@@ -1,14 +1,15 @@
 .footer {
     margin-top: 194px;
+    width: 100%;
 }
 
 .banner-footer img {
-    width: 100vw;
+    width: 100%;
 }
 
 .footer-rodape {
     height: 232px;
-    width: 100vw;
+    width: 100%;
     background-color: var(--cor-do-footer);
 }
 

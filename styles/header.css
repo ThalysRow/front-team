@@ -1,7 +1,7 @@
 .header {
     position: absolute;
     height: 104px;
-    width: 100vw;
+    width: 100%;
     background-color: var(--cor-marrom-forte);
     display: flex;
     align-items: center;
