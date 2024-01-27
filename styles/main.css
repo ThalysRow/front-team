@@ -90,7 +90,7 @@
 }
 
 .diferencial {
-    margin-top: 56px;
+    margin-top: 104px;
   }
   
   .titulo-diferencial {
@@ -162,4 +162,75 @@
     font-weight: 500;
     font-size: 32px;
     color: var(--cor-cinza);
+  }
+
+  .melhores-produtos {
+    margin-top: 104px;
+  }
+
+  .titulo-produtos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .titulo-produtos h2 {
+    font-family: var(--font-primaria);
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--cor-cinza);
+  }
+
+  .container-produtos {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 24px;
+    padding: 0px 121.5px;
+  }
+
+  .lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lista img {
+    width: 382.4px;
+    height: 239px;
+  }
+
+  .lista img, .lista h2 {
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lista h2 {
+    font-family: var(--font-primaria);
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--cor-cinza);
+  }
+
+  .lista p {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-primaria);
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--cor-cinza);
+    line-height: 40px;
+  }
+
+  .lista:hover {
+    border: 1px solid var(--cor-amarela-principal);
+    border-radius: 8px;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
   }
