@@ -252,3 +252,81 @@
     transform: scale(1.05);
     transition: transform 0.3s ease;
   }
+
+/* Estilo do login */
+
+.login {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+  .titulo-login {
+    text-align: center;
+    font-family: var(--font-primaria);
+    font-size: 48px;
+    color: var(--cor-cinza);
+    font-weight: 800;
+    margin-top: 48px;
+  }
+
+  label, input {
+    width: 750px;
+    height: 48px;
+    box-sizing: border-box;
+    font-family: var(--font-primaria);
+    font-size: 35px;
+    font-weight: bold;
+    color: var(--cor-cinza);
+    display: flex; 
+    flex-direction: column; 
+    gap: 12px;
+    margin-bottom: 5px;
+  }
+  
+  #username, #password {
+    font-size: 20px;
+  }
+
+.campo-botao2 {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.butao2 {
+    width: 150px;
+    height: 56px;
+    background-color: var(--cor-marrom-forte);
+    border-radius: 16px;
+    box-shadow: 4px 4px var(--cor-cinza);
+    padding: 16px 10px;
+}
+
+.butao2 p {
+    font-family: var(--font-primaria);
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: var(--cor-branca);
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.butao2 p span {
+  margin-left: 10px; 
+}
+
+.butao2:hover {
+  background-color: var(--cor-amarela-principal);
+  box-shadow: none;
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+
