@@ -255,6 +255,50 @@
   transition: transform 0.3s ease;
 }
 
+
+
+
+/* Estilo para o dropdown */
+section.dropdown {
+  display: block;
+  margin: 150px 120px 20px 120px;
+  align-items: flex-start;
+}
+
+section.dropdown details {
+  background-color: #630; /* Cor de fundo do dropdown */
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+
+
+section.dropdown summary {
+  padding: 10px;
+  color: var(--Branco, #FFF); /* Cor do texto do dropdown */
+  font-size: 32px;
+  cursor: pointer;
+}
+
+section .titulo-sobre h2 {
+  text-align: center;
+  margin-bottom: 48px;
+  margin-top: 28px;
+  font-size: 48px;
+}
+section.dropdown summary:hover {
+  background-color: #7b0639; /* Altera a cor de fundo ao passar o mouse */
+} 
+
+section.dropdown p {
+  padding: 10px;
+  color: var(--Cinza, #444); /* Cor do texto do dropdown */
+  font-size: 20px;
+  background-color:  #FACF9D;
+}
+
+
+
 /* Estilo do login */
 
 .login {
@@ -374,3 +418,6 @@ input {
   text-align: right;
 
 }
+
+
+
