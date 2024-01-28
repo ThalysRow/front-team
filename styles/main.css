@@ -252,3 +252,45 @@
     transform: scale(1.05);
     transition: transform 0.3s ease;
   }
+
+  .sobre {
+    margin-top: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 48px;
+    padding: 0px 121.5px;
+}
+
+.titulo-sobre h2 {
+  font-family: var(--font-primaria);
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--cor-cinza);
+}
+
+.titulo-sobre-invertido h2 {
+  font-family: var(--font-primaria);
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--cor-cinza);
+  text-align: right;
+}
+
+.texto-sobre p {
+  font-family: var(--font-primaria);
+  font-size: 20px;
+  color: var(--cor-cinza);
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.texto-sobre-invertido p {
+  font-family: var(--font-primaria);
+  font-size: 20px;
+  color: var(--cor-cinza);
+  font-weight: 500;
+  line-height: 40px;
+text-align: right;
+
+}
