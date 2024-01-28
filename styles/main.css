@@ -7,8 +7,6 @@
   width: 100%;
 }
 
-
-
 .apresentacao {
   margin-top: 64px;
   display: flex;
@@ -208,6 +206,66 @@
   align-items: flex-start;
 }
 
+.container-cardapio{
+  margin-top: 104px; 
+  display: flex;
+  flex-wrap: wrap; 
+  padding: 0 121.5px;
+  justify-content: center;
+  column-gap: 24px;
+  align-items: flex-start;
+}
+
+.produto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  flex: 1 0 0;
+  margin-bottom: 100px;
+  flex-basis: calc(33.33% - 24px);
+}
+
+
+.produto img {
+  width: 382.4px;
+  height: 239px;
+}
+
+.produto img,
+.produto h2 {
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.produto h2 {
+  font-family: var(--font-primaria);
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--cor-cinza);
+}
+
+.produto p {
+  color: var(--Cinza, #444);
+  text-align: center;
+
+  /* P */
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  /* 200% */
+}
+
+.produto:hover {
+  border-radius: 8px;
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
 .lista {
   display: flex;
   flex-direction: column;
@@ -256,8 +314,6 @@
 }
 
 
-
-
 /* Estilo para o dropdown */
 section.dropdown {
   display: block;
@@ -287,12 +343,12 @@ section .titulo-sobre h2 {
   font-size: 48px;
 }
 section.dropdown summary:hover {
-  background-color: #7b0639; /* Altera a cor de fundo ao passar o mouse */
+  background-color: var(--cor-amarela-principal); 
 } 
 
 section.dropdown p {
   padding: 10px;
-  color: var(--Cinza, #444); /* Cor do texto do dropdown */
+  color: var(--Cinza, #444); 
   font-size: 20px;
   background-color:  #FACF9D;
 }
@@ -352,6 +408,8 @@ input {
   border-radius: 16px;
   box-shadow: 4px 4px var(--cor-cinza);
   padding: 16px 10px;
+  display: flex;      
+  cursor: pointer;
 }
 
 .butao2 p {
@@ -364,10 +422,15 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 5px;
+  margin-left: 15px;
 }
 
-.butao2 p span {
-  margin-left: 10px;
+.arrow {
+  font-size: 1.5em; 
+  color: #fff; 
+  margin-left: 15px;  
+  display: flex;
 }
 
 .butao2:hover {
@@ -376,6 +439,8 @@ input {
   transform: scale(1.05);
   transition: transform 0.3s ease;
 }
+
+
 
 .sobre {
   margin-top: 64px;
@@ -386,19 +451,27 @@ input {
   padding: 0px 121.5px;
 }
 
-.titulo-sobre h2 {
-  font-family: var(--font-primaria);
-  font-size: 32px;
-  font-weight: 700;
+.campo-sobre{
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.titulo-sobree h2{
   color: var(--cor-cinza);
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .titulo-sobre-invertido h2 {
-  font-family: var(--font-primaria);
-  font-size: 32px;
-  font-weight: 700;
   color: var(--cor-cinza);
-  text-align: right;
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .texto-sobre p {
