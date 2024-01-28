@@ -1,0 +1,43 @@
+.footer {
+    margin-top: 194px;
+    width: 100%;
+}
+
+.banner-footer img {
+    width: 100%;
+}
+
+.footer-rodape {
+    height: 232px;
+    width: 100%;
+    background-color: var(--cor-do-footer);
+}
+
+.titulo-footer {
+    display: flex;
+    padding-left: 120px;
+    padding-top: 72px;
+}
+
+.titulo-footer h2 {
+    font-family: var(--font-primaria);
+    font-weight: 800;
+    font-size: 27px;
+    color: var(--cor-cinza);
+}
+
+.texto-rodape h3 {
+    font-family: var(--font-primaria);
+    color: var(--cor-cinza);
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.texto-rodape {
+    display: flex;
+    padding-top: 8px;
+    padding-left: 120px;
+    align-items: center;
+    column-gap: 8px;
+}

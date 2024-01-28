@@ -1,0 +1,9 @@
+@import url("./global.css");
+@import url("./header.css");
+@import url("./main.css");
+@import url("./footer.css");
+
+body {
+    background: linear-gradient(to bottom, #fbfbe4, #fcf3d4, #fdeac3, #fadba8, #ecbe79, #e4af60);
+    margin: 0 auto;
+  }
