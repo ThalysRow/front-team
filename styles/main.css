@@ -355,7 +355,7 @@ section.dropdown p {
 
 
 
-/* Estilo do login */
+/* Estilo da página login */
 
 .login {
   height: 400px;
@@ -394,36 +394,25 @@ input {
   font-size: 20px;
 }
 
-.campo-botao2 {
-  margin-top: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.butao2 {
+.btn-primary {
+  background-color: #630; 
+  transition: background-color 0.3s ; 
   width: 150px;
   height: 56px;
-  background-color: var(--cor-marrom-forte);
-  border-radius: 16px;
-  box-shadow: 4px 4px var(--cor-cinza);
-  padding: 16px 10px;
-  display: flex;      
-  cursor: pointer;
-}
-
-.butao2 p {
   font-family: var(--font-primaria);
   font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
   text-transform: uppercase;
   color: var(--cor-branca);
   letter-spacing: 1px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 5px;
-  margin-left: 15px;
+  border: 2px solid #630;
+}
+
+.btn-primary:hover {
+  background-color: var(--cor-amarela-principal);
+  box-shadow: none;
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
 
 .arrow {
@@ -433,14 +422,8 @@ input {
   display: flex;
 }
 
-.butao2:hover {
-  background-color: var(--cor-amarela-principal);
-  box-shadow: none;
-  transform: scale(1.05);
-  transition: transform 0.3s ease;
-}
 
-
+/* Estilo da página SObre */
 
 .sobre {
   margin-top: 64px;
