@@ -1,4 +1,4 @@
-<h1 align="center">GameOn</h1>
+<h1 align="center">&lt;Código do Café/&gt;</h1>
 
 <p align="center">
  <img src="./img/">
