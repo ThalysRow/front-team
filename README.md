@@ -14,7 +14,7 @@ Este projeto foi desenvolvido utilizando:
 <br>
 
 # Status do projeto
-Finalizado (Versão Desktop e Mobile): 
+Finalizado (Versão Desktop): 
 
 <br>
 
