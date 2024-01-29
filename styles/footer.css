@@ -41,3 +41,15 @@
     align-items: center;
     column-gap: 8px;
 }
+
+.footer2 {
+    margin-top: 350px;
+    height: 232px;
+}
+
+.formato-texto {
+    font-family: var(--font-primaria);
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--cor-cinza);
+}
