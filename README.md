@@ -1,7 +1,7 @@
 <h1 align="center">&lt;Código do Café/&gt;</h1>
 
 <p align="center">
- <img src="./img/">
+ <img src="./assets/images/gif.gif">
 </p>
 
 <br>
